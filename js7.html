@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+     <style>
+        div{
+            height: 400px;
+            width: 400px;
+            background-color:darkslateblue;
+        }
+     </style>
+</head>
+
+<body>
+    <div onclick= "counter()" height="400" width="400" color="red"><img src="kali_logo.png" height="300" width="300" alt="Kali Linux Logo">
+   </div>
+        <!--onclick ondblclick oncontextmenu onmouseover onmouseout onmousedown onmouseup onmousemove onmouseleave-->
+    
+   <script>
+//     function generate(){
+//         alert ("There is some event occured  ")
+//     }
+       let count = 0;
+       function counter(){
+           count++;
+           console.log(count);
+       }
+    </script>
+</body>
+
+</html>
